@@ -11,11 +11,13 @@ const map = new mapboxgl.Map({
 
 });
 const domEl = document.createElement('div')
-markerDomEl.style.width = "32px";
-markerDomEl.style.height = "39px";
-markerDomEl.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)";
+domEl.style.width = "32px";
+domEl.style.height = "39px";
+domEl.style.backgroundImage = "url(http://i.imgur.com/WbMOfMl.png)";
 
 new mapboxgl.Marker(domEl).setLngLat([-74.009151, 40.705086]).addTo(map);
+
+marker('Hotel', [-73.9808, 40.7674]).addTo(map);
 
 
 // console.log('hey assel wassup it is stacy.....')
