@@ -104,7 +104,7 @@ eval("/* Mapbox GL JS is licensed under the 3-Clause BSD License. Full text of l
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const mapboxgl = __webpack_require__(/*! mapbox-gl */ \"./node_modules/mapbox-gl/dist/mapbox-gl.js\")\nmapboxgl.accessToken = 'pk.eyJ1Ijoic3RhY3loYXJmZW5pc3QiLCJhIjoiY2prazY3d2R1MW40dDNrbWw2enY0dXZwYSJ9.mRUK3zlGaYuh8KQwtJ-nZw';\n\nconst map = new mapboxgl.Map({\n  container: \"map\",\n  center: [-74.009, 40.705], // FullStack NY coordinates; alternatively, use [-87.6354, 41.8885] for Chicago\n  zoom: 12, // starting zoom\n  style: \"mapbox://styles/mapbox/streets-v10\" // mapbox has lots of different map styles available.\n});\n\n\n// console.log('hey assel wassup it is stacy.....')\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("const mapboxgl = __webpack_require__(/*! mapbox-gl */ \"./node_modules/mapbox-gl/dist/mapbox-gl.js\")\nmapboxgl.accessToken = 'pk.eyJ1Ijoic3RhY3loYXJmZW5pc3QiLCJhIjoiY2prazY3d2R1MW40dDNrbWw2enY0dXZwYSJ9.mRUK3zlGaYuh8KQwtJ-nZw';\n\nconst map = new mapboxgl.Map({\n  container: \"map\",\n  center: [-74.009, 40.705], // FullStack NY coordinates; alternatively, use [-87.6354, 41.8885] for Chicago\n  zoom: 12, // starting zoom\n  style: \"mapbox://styles/mapbox/streets-v10\" // mapbox has lots of different map styles available.\n  //\n\n});\nconst domEl = document.createElement('div')\nmarkerDomEl.style.width = \"32px\";\nmarkerDomEl.style.height = \"39px\";\nmarkerDomEl.style.backgroundImage = \"url(http://i.imgur.com/WbMOfMl.png)\";\n\nnew mapboxgl.Marker(domEl).setLngLat([-74.009151, 40.705086]).addTo(map);\n\n\n// console.log('hey assel wassup it is stacy.....')\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
